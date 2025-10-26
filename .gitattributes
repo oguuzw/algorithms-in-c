@@ -1,7 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-# Auto detect text files and perform LF normalization
-* text=auto
 
 # Force GitHub Linguist to treat .c and .h files as C language
 *.c linguist-language=C
