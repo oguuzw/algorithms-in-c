@@ -1,1 +1,14 @@
+# Force GitHub Linguist to recognize all .c files as C language
 *.c linguist-language=C
+
+# Header files (.h) also belong to C
+*.h linguist-language=C
+
+# Ignore non-code files from language statistics
+*.md linguist-detectable=false
+*.txt linguist-detectable=false
+*.csv linguist-detectable=false
+*.json linguist-detectable=false
+
+# Exclude configuration and hidden files
+*.gitignore linguist-detectable=false
